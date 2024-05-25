@@ -1,9 +1,6 @@
 ---
 # Display name
-title: Aarjav
-
-# Name pronunciation (optional)
-name_pronunciation: Chien Shiung Wu
+title:     Aarjav
 
 # Full name (for SEO)
 first_name: Aarjav
@@ -36,10 +33,16 @@ profiles:
     url: https://www.linkedin.com/in/aarjav-t-061711145/
 
 education:
+  - area: Post Graduate Program in Management
+    institution: IIM Calcutta
+    date_start: 2024-06-08
+    date_end: ''
+    summary: 
+
   - area: BE Computer Science
     institution: BITS Pilani
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+    date_start: 2019-07-31
+    date_end: 2023-05-23
     summary: |
       Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
     button:
@@ -67,21 +70,23 @@ education:
       - lorem ipsum dolor sit amet, consectetur adipiscing elit
       - lorem ipsum dolor sit amet, consectetur adipiscing elit
       - lorem ipsum dolor sit amet, consectetur adipiscing elit
+
 work:
-  - position: Director of Cloud Infrastructure
-    company_name: GenCoin
-    company_url: ''
+  - position: Management Trainee
+    company_name: ICICI Bank
+    company_url: 'https://www.icicibank.com/'
     company_logo: ''
-    date_start: 2021-01-01
-    date_end: ''
+    date_start: 2023-07-18
+    date_end: 2024-05-15
     summary: |2-
       Responsibilities include:
       - lorem ipsum dolor sit amet, consectetur adipiscing elit
       - lorem ipsum dolor sit amet, consectetur adipiscing elit
       - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - position: Backend Software Engineer
-    company_name: X
-    company_url: ''
+
+  - position: Fullstack Developer (Intern)
+    company_name: Avaamo
+    company_url: 'https://avaamo.ai/'
     company_logo: ''
     date_start: 2016-01-01
     date_end: 2020-12-31
@@ -90,6 +95,27 @@ work:
       - Migrated infrastructure to a new data center
       - lorem ipsum dolor sit amet, consectetur adipiscing elit
       - lorem ipsum dolor sit amet, consectetur adipiscing elit
+
+  - position: Software Developer (Intern)
+    company_name: VoiceQube
+    company_url: 'https://www.voiceqube.com/'
+    company_logo: ''
+    date_start: 2016-01-01
+    date_end: 2020-12-31
+    summary: |
+      Responsibilities include:
+      - Migrated infrastructure to a new data center
+      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+
+# Projects
+projects: 
+  - name: St
+
+# Hobbies
+hobbies:
+  - name: filmmaking
+
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
@@ -164,5 +190,3 @@ awards:
     summary: |
       Object-oriented programming (OOP) lets you specify relationships between functions and the objects that they can act on, helping you manage complexity in your code. This is an intermediate level course, providing an introduction to OOP, using the S3 and R6 systems. S3 is a great day-to-day R programming tool that simplifies some of the functions that you write. R6 is especially useful for industry-specific analyses, working with web APIs, and building GUIs.
 ---
-
-I am currently Director of Cloud Infrastructure at GenCoin where I am leading teams on edge computing, deep sea data center architecture, and hivemind optimization.
